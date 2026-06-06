@@ -1,3 +1,4 @@
+import numpy as np
 def normalized_array(input_array):
   data = np.array(input_array)
   if np.all(data == data[0]):

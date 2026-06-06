@@ -1,6 +1,8 @@
-import numpy as np
-
-def normalized_array(data):
+data = np.array(input_array)
+  if np.all(data == data[0]):
+   return np.zeros(data.shape)
+  else:
+    new_array = (data - np.min(data)) / (np.max(data) - np.min (data))
     """
     מנרמלת מערך נתונים לטווח של [0, 1] לפי שיטת Min-Max Scaling.
     

@@ -7,7 +7,7 @@ def normalized_array(input_array):
   else:
     new_array = (data - np.min(data)) / (np.max(data) - np.min (data))
     
-return new_array
+  return new_array
     # חשוב לזכור להחליף את pass ב- return
 
 if __name__ == "__main__":
